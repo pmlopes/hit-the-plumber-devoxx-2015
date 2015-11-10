@@ -5,3 +5,6 @@ This is the final code of the presentation [Hit the plumber](http://cfp.devoxx.b
 > This session presents how you can develop a realtime web application with vert.x web. In this context, a small game is going to be developed on stage demonstrating how easy it is to build such kind of applications with Vert.x 3. Of course attendees can play the game.
 
 The game uses [mgl.coffee](https://github.com/abagames/mgl.coffee) which is licensed under the MIT license.
+
+The final build is running a spectator mode at [openshift](http://hittheplumber-vertxdemos.rhcloud.com/).
+And a game mode at The final build is running a spectator mode at [openshift](http://hittheplumber-vertxdemos.rhcloud.com/game).
