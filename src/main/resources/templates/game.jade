@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        title Hit the plumber
+        link(rel="stylesheet", href="/style.css")
+        meta(name="viewport", content="width=device-width, user-scalable=no")
+        script(src="/libs/jquery-2.1.1.min.js")
+        script(src="/libs/audio.js")
+        script(src="/libs/jsfx.js")
+        script(src="/libs/jsfxlib.js")
+        script(src="/libs/webaudiox.jsfx.js")
+        script(src="/libs/LZWEncoder.js")
+        script(src="/libs/NeuQuant.js")
+        script(src="/libs/GIFEncoder.js")
+        script(src="/libs/b64.js")
+        script(src="/js/mgl.js")
+        script(src="/libs/sockjs.min.js")
+        script(src="/libs/vertx-eventbus.js")
+    body
+        #content.main
+            article
+                section
+                    #displayDiv(style="width:100%;max-width:480px")
+                        canvas(id="display")
+        script(type="text/javascript").
+            var playerId = #{context.playerId};
+        script(src="/js/game.js")
